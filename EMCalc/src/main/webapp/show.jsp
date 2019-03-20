@@ -8,13 +8,12 @@
 <title>Emi split</title>
 </head>
 <body>
-<c:out value="Hello"></c:out>
 <h3>EMI Details</h3>
 <hr size="4" color="gray"/>
 <table>
     <c:forEach items="${models}" var="model">
         <tr>
-            <td>SrNo: <c:out value="${model.eid}"/></td>
+            <!-- <td>SrNo: <c:out value="${model.eid}"/></td>-->
             <td>Month: <c:out value="${model.month}"/></td>
             <td>Interest: <c:out value="${model.interest}"/></td>  
             <td>Principal: <c:out value="${model.principal}"/></td>  
